@@ -221,11 +221,11 @@ if test ! -r ${osmdatapath}; then
 fi
 
 #	Check the md5 matches
-if [ "$(md5sum ${osmdatapath} | awk '{print $1;}')" != "$(cat ${osmdatapath}.md5 | awk '{print $1;}')" ]; then
-    echo "#\tThe md5 checksum for osmdatapath: ${osmdatapath} does not match, stopping."
-    exit 1
-    echo "\n#\tDownloaded OSM data integrity verified by md5 check." >> ${setupLogFile}
-fi
+#if [ "$(md5sum ${osmdatapath} | awk '{print $1;}')" != "$(cat ${osmdatapath}.md5 | awk '{print $1;}')" ]; then
+#    echo "#\tThe md5 checksum for osmdatapath: ${osmdatapath} does not match, stopping."
+#    exit 1
+#    echo "\n#\tDownloaded OSM data integrity verified by md5 check." >> ${setupLogFile}
+#fi
 
 
 #idempotent

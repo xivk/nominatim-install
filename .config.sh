@@ -5,7 +5,7 @@
 # Define the website hostname and e-mail for the VirtualHost
 # Several option groups here, comment in / out as necessary
 # Localhost
-websiteurl=nominatim.localhost
+websiteurl=localhost
 emailcontact=nominatim@localhost
 # CycleStreets
 #websiteurl=nominatim.cyclestreets.net
